@@ -1,8 +1,18 @@
-# React + Vite
+# Codebase of the [BITSkrieg Website](https://bitskrieg.netlify.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Find .jsx and .css files in 'src' folder
+- App.css contains the styling for all the components
+- Components are listed under 'src/components'
+- This project uses Vite+React.
+- This project uses 'react-scroll' module.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instructions
+- Clone this repo to get it on your local machine
+- Initialise you local dev environment.
+- You might need:
+- ```npm run install``` To install dependencies
+- ```npm install 'react-scroll'``` To install react-scroll
+- ```npm run dev``` To set up local dev server 
+- ```npm run build``` To build the vite app (You don't really need this if you're satisfied with dev server)
+- ```npm run preview``` To view the build preview (Again, you don't need this) 
+- The build command is run at deployment by default.
