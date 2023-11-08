@@ -8,13 +8,25 @@ import Cards from './components/Cards'
 
 function App() {
 
+
   return (
     <>
       <Navbar />
       <div id="hero">
         <BinaryGenerator />
-        {/* <h1 id="title">bitskrieg</h1> */}
-        <img src="./bitskrieg_logo.png" alt="" id="title" />
+        <pre id="title-ascii">
+        {`
+          ____ _____ _______ _____ _         _            
+         |  _ \\_   _|__   __/ ____| |       (_)           
+         | |_) || |    | | | (___ | | ___ __ _  ___  __ _ 
+         |  _ < | |    | |  \\___ \\| |/ / '__| |/ _ \\/ _\` |
+         | |_) || |_   | |  ____) |   <| |  | |  __/ (_| |
+         |____/_____|  |_| |_____/|_|\\_\\_|  |_|\\___|\\__, |
+                                                     __/ |
+                                                    |___/ 
+        `}
+      </pre>
+        {/* <img src="./bitskrieg_logo.png" alt="" id="title" /> */}
       </div>
       <Cards />
       <div className="content" id='about-section'>

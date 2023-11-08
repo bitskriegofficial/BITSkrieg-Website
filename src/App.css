@@ -85,7 +85,9 @@ body {
 }
 
 #title {
-  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "JetBrains Mono", monospace;
   position: absolute;
   top: 50%;
@@ -93,12 +95,28 @@ body {
   transform: translate(-50%, -50%);
   z-index: 2;
   color: #a9a9a9;
-  text-shadow: 2px 2px 2px #928d8d;
-  font-size: 10vw;
+  text-shadow: 2px 2px 0px #7998e8;
+  font-size: 1vw;
   width: 50vw;
   /* filter: hue-rotate(0deg);
   filter: grayscale(); 
   box-shadow: 0 0 20px #928d8d; */
+}
+
+#title-ascii {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "JetBrains Mono", monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  z-index: 2;
+  color: #7998e8;
+  text-shadow: 2px 2px 0px #a9a9a9;
+  font-size: 2vw;
+  min-width: fit-content;
 }
 
 /* Cards */
