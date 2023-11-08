@@ -19,7 +19,7 @@ function App() {
       <Cards />
       <div className="content" id='about-section'>
           <h1><span id="title-span">About</span></h1>
-          <h2>We are One of India’s Top Rated CTF Teams</h2>
+          <h2>We are One of India's Top Rated CTF Teams</h2>
           <p>
             We are a group of students with keen interest in breaking, exploiting,
             and securing software systems.
