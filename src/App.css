@@ -113,8 +113,8 @@ body {
   left: 50%;
   transform: translate(-60%, -50%);
   z-index: 2;
-  color: #7998e8;
-  text-shadow: 2px 2px 0px #a9a9a9;
+  color: #fdffff;
+  text-shadow: 1px 1px 0px #7998e8;
   font-size: 2vw;
   min-width: fit-content;
 }
