@@ -10,7 +10,7 @@ class BinaryGenerator extends Component {
 
   componentDidMount() {
     this.generateBinary();
-    this.interval = setInterval(this.updateBinary, 5);
+    this.interval = setInterval(this.updateBinary, 1);
   }
 
   componentWillUnmount() {

@@ -7,7 +7,7 @@ export default function Navbar(){
           <img src="./bitskrieg_logo.png" alt="BITSkrieg Logo" id="logo" />
           <ul id="nav-menu">
             <li id="nav-home">
-              <Link to='hero' smooth={true} offset={-100} duration={500}>~</Link>
+              <Link to='hero' smooth={true} offset={-200} duration={500}>~</Link>
             </li>
             <li id="nav-separator">/</li>
             <li id="nav-about">

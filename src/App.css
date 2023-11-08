@@ -31,6 +31,7 @@ body {
 /* Navbar */
 
 #navbar {
+  z-index: 10000;
   box-sizing: content-box;
   position: sticky;
   top: 0;
@@ -83,6 +84,7 @@ body {
 }
 
 #title {
+  /* border-radius: 50%; */
   font-family: "JetBrains Mono", monospace;
   position: absolute;
   top: 50%;
@@ -93,6 +95,9 @@ body {
   text-shadow: 2px 2px 2px #928d8d;
   font-size: 10vw;
   width: 50vw;
+  /* filter: hue-rotate(0deg);
+  filter: grayscale(); 
+  box-shadow: 0 0 20px #928d8d; */
 }
 
 /* Cards */
