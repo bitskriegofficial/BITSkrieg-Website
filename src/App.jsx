@@ -5,6 +5,8 @@ import BinaryGenerator from './components/BinaryGenerator'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Cards from './components/Cards'
+import Matrix from './components/BinaryBackground'
+import BinaryBackground from './components/BinaryBackground'
 
 function App() {
 
@@ -13,8 +15,8 @@ function App() {
     <>
       <Navbar />
       <div id="hero">
-        <BinaryGenerator />
-        <pre id="title-ascii">
+       <BinaryGenerator />
+        {/* <pre id="title-ascii">
         {`
           ____ _____ _______ _____ _         _            
          |  _ \\_   _|__   __/ ____| |       (_)           
@@ -25,8 +27,9 @@ function App() {
                                                      __/ |
                                                     |___/ 
         `}
-      </pre>
-        {/* <img src="./bitskrieg_logo.png" alt="" id="title" /> */}
+      </pre>  */}
+      {/* <BinaryBackground /> */}
+        <img src="./bitskrieg_logo.png" alt="" id="title" />
       </div>
       <Cards />
       <div className="content" id='about-section'>

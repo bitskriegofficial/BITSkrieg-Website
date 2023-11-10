@@ -98,7 +98,8 @@ body {
   color: #a9a9a9;
   text-shadow: 2px 2px 0px #7998e8;
   font-size: 1vw;
-  width: 50vw;
+  width: 60vw;
+  filter: invert(50%);
   /* filter: hue-rotate(0deg);
   filter: grayscale(); 
   box-shadow: 0 0 20px #928d8d; */
@@ -198,14 +199,22 @@ body {
 
 /* Content */
 
-.content {
-  /* border: 2px solid red; */
+/* .content {
   text-shadow: 0 0 5px #1d1d1d;
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 100%;
   min-height: 100%;
+  align-items: start;
+} */
+
+.content {
+  text-shadow: 0 0 5px #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
   align-items: start;
 }
 
@@ -233,25 +242,8 @@ body {
 
 /* Binary Generator */
 
-.glow {
-  color: lime;
-  animation: glow-animation 2s ease-in-out infinite; /* Add animation for continuous glowing */
-}
-
-@keyframes glow-animation {
-  0% {
-    opacity: 500%;
-  }
-  50% {
-    opacity: 50%;
-  }
-  100% {
-    opacity: 500%;
-  }
-}
-
 .bin {
-  font-size: 1.25vw;
+  font-size: 1.25em;
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -263,4 +255,19 @@ body {
   letter-spacing: 1px;
   overflow: hidden;
   margin: 0 auto;
+}
+
+/* Binary Background */
+
+#p {
+  font-family: monospace;
+  color: #a9a9a9; /* Change the color to your preference */
+  font-size: 16px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust line height for better readability */
+  white-space: pre-wrap; /* Preserve formatting */
+  background-color: #1d1d1d; /* Set the background color */
+  overflow: hidden; /* Hide overflow to keep the layout clean */
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
