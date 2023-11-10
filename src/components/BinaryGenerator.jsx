@@ -19,7 +19,7 @@ class BinaryGenerator extends Component {
 
   generateBinary = () => {
     let binaryText = '';
-    for (let i = 0; i < 10500; i++) {
+    for (let i = 0; i < 20000; i++) {
       binaryText += Math.round(Math.random());
     }
     this.setState({ binaryText });
