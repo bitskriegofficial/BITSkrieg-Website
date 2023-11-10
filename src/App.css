@@ -153,6 +153,9 @@ body {
   #navbar {
     font-size: 14px;
   }
+  .bin {
+    line-height: normal;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -163,12 +166,18 @@ body {
   #navbar {
     font-size: 14px;
   }
+  .bin {
+    line-height: normal;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .card {
     width: 40%;
+  }
+  .bin {
+    line-height: normal;
   }
 }
 
