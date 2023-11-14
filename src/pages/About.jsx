@@ -1,6 +1,11 @@
+import { Fragment } from "react"
+import Navbar from "../components/Navbar"
+
 export default function About(){
     return(
-        <div className="content" id='about-section'>
+      <Fragment>
+        <Navbar />
+        <div className="content" id='about-section'>      
         <h1><span id="title-span">About</span></h1>
         <h2>We are One of India's Top Rated CTF Teams</h2>
         <p>
@@ -27,5 +32,6 @@ export default function About(){
           like Google, Microsoft, Facebook and TrendMicro.
         </p>
       </div>
+      </Fragment>
     )
 }

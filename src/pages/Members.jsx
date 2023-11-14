@@ -1,6 +1,11 @@
-export default function Members(){
-    return (
-        <div className="content" id='members-section'>
+import { Fragment } from "react"
+import Navbar from "../components/Navbar"
+
+export default function Members() {
+  return (
+    <Fragment>
+      <Navbar />
+      <div className="content" id='members-section'>
         <h1><span id="title-span">Members</span></h1>
         <h2>Members subtitle</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rem optio consequatur nulla hic? Quis inventore tenetur ea? Dolores illum nihil amet, asperiores pariatur repellat? Quia exercitationem praesentium doloremque assumenda ratione ipsam fuga provident, saepe error accusamus labore, veritatis repudiandae laboriosam fugit quis. Hic, ab ipsum distinctio labore exercitationem modi?
@@ -10,5 +15,6 @@ export default function Members(){
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia error illum sapiente id sit repellat adipisci sed assumenda dolor reiciendis sunt nam ducimus nesciunt unde, ad possimus praesentium deleniti, corrupti magnam. Accusamus vel nisi ea minima officiis, sunt deserunt similique harum necessitatibus libero quae? Esse consequatur nesciunt corrupti doloremque inventore voluptates mollitia laborum provident. Eos optio enim minus. Aliquam, quasi suscipit quis voluptatum enim officiis!
         </p>
       </div>
-    )
+    </Fragment>
+  )
 }
