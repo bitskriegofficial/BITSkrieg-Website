@@ -50,23 +50,21 @@ body {
 #nav-menu {
   display: flex;
   flex-direction: row;
-  gap: 2px;
+  gap: 20px;
 }
 
-#nav-menu > li {
+.nav-menu-item{
   cursor: pointer;
+  color: white;
   list-style: none;
 }
 
-#nav-home:hover,
-#nav-about:hover,
-#nav-members:hover,
-#nav-contact:hover {
+.nav-menu-item:hover{
   color: #7998e8;
 }
-
-#nav-separator {
+.nav-separator {
   cursor: auto;
+  list-style: none;
 }
 
 #logo {
@@ -84,9 +82,9 @@ body {
   width: 100%;
   height: 85vh;
 }
-
-#title {
+.home-content{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "JetBrains Mono", monospace;
@@ -95,14 +93,43 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  color: #a9a9a9;
+  width: 100%;
+}
+.typewriter-home-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typewriter-home-content p{
+  overflow: hidden; 
+  /* border-right: .15em solid rgb(255, 255, 255); */
+  white-space: nowrap;
+  font-size: 1.25vw;
+  /* text-align: center; */
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+#title {
+  
+  color: white;
   text-shadow: 2px 2px 0px #7998e8;
   font-size: 1vw;
   width: 60vw;
-  filter: invert(50%);
-  /* filter: hue-rotate(0deg);
-  filter: grayscale(); 
-  box-shadow: 0 0 20px #928d8d; */
 }
 
 #title-ascii {
