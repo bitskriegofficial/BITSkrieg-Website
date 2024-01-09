@@ -1,12 +1,12 @@
 import { Fragment } from "react"
 import Navbar from "../components/Navbar"
 
-export default function About(){
-    return(
-      <Fragment>
-        <Navbar />
-        <div className="content" id='about-section'>      
-        <h1><span id="title-span">About</span></h1>
+export default function About() {
+  return (
+    <Fragment>
+      <Navbar />
+      <div className="content">
+        <h1><span id="title-span">{">"} About</span></h1>
         <h2>We are One of India's Top Rated CTF Teams</h2>
         <p>
           We are a group of students with keen interest in breaking, exploiting,
@@ -32,6 +32,11 @@ export default function About(){
           like Google, Microsoft, Facebook and TrendMicro.
         </p>
       </div>
-      </Fragment>
-    )
+      <div className="content" id='members-section'>
+        <h1><span id="title-span">{">"} Our Team</span></h1>
+        <h2>Coordinators</h2>
+        
+      </div>
+    </Fragment>
+  )
 }

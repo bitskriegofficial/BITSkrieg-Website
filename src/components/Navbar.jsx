@@ -13,8 +13,8 @@ export default function Navbar() {
           About
         </Link>
         <li className="nav-separator">/</li>
-        <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/members'>
-          Members
+        <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/archives'>
+          Archives
         </Link>
         <li className="nav-separator">/</li>
         <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/contact'>

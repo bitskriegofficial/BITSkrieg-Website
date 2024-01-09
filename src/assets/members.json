@@ -1,0 +1,15 @@
+{
+    "members":[
+        {
+            "username":"Username",
+            "name":"Name",
+            "category":"category",
+            "designation":"Alumni",
+            "contact":{
+                "mail":"mail@gmail.com",
+                "linkedin":"linkedin",
+                "twitter":"twitter"
+            }
+        }
+    ]
+}
