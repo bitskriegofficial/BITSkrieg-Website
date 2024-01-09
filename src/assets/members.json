@@ -1,0 +1,44 @@
+{
+    "members":[
+        {
+            "username":"Username",
+            "name":"Name",
+            "designation":"Chief Coordinator",
+            "contact":{
+                "mail":"mail@gmail.com",
+                "linkedin":"linkedin",
+                "twitter":"twitter"
+            }
+        },
+        {
+            "username":"Username",
+            "name":"Name",
+            "designation":"Technical Head",
+            "contact":{
+                "mail":"mail@gmail.com",
+                "linkedin":"linkedin",
+                "twitter":"twitter"
+            }
+        },
+        {
+            "username":"Username",
+            "name":"Name",
+            "designation":"Operations Head",
+            "contact":{
+                "mail":"mail@gmail.com",
+                "linkedin":"linkedin",
+                "twitter":"twitter"
+            }
+        },
+        {
+            "username":"Username",
+            "name":"Name",
+            "designation":"Alumni",
+            "contact":{
+                "mail":"mail@gmail.com",
+                "linkedin":"linkedin",
+                "twitter":"twitter"
+            }
+        }
+    ]
+}
