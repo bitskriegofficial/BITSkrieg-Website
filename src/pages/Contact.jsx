@@ -6,7 +6,7 @@ export default function Contact() {
     <Fragment>
       <Navbar />
       <div className="content" id='contact-section'>
-        <h1><span id="title-span">Contact</span></h1>
+        <h1><span id="title-span">{">"} Contact</span></h1>
         <h2>Contact us</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rem optio consequatur nulla hic? Quis inventore tenetur ea? Dolores illum nihil amet, asperiores pariatur repellat? Quia exercitationem praesentium doloremque assumenda ratione ipsam fuga provident, saepe error accusamus labore, veritatis repudiandae laboriosam fugit quis. Hic, ab ipsum distinctio labore exercitationem modi?
         </p>

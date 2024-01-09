@@ -1,7 +1,32 @@
-import { Fragment } from "react"
+import { Fragment, useState } from "react"
 import Navbar from "../components/Navbar"
+import membersList from "../assets/members.json"
+import MemberCard from "../components/MemberCard";
 
 export default function About() {
+
+  const [members, setMembers] = useState({
+    Core: [],
+    Crew: [],
+    Alumni: []
+  })
+
+  function fetchMembers() {
+    const core = membersList.members?.filter(e => e.designation === "Core");
+    const crew = membersList.members?.filter(e => e.designation === "Crew");
+    const alumni = membersList.members?.filter(e => e.designation === "Alumni");
+
+    setMembers({
+      Core: core,
+      Crew: crew,
+      Alumni: alumni
+    })
+  }
+
+  useState(() => {
+    fetchMembers();
+  }, [])
+
   return (
     <Fragment>
       <Navbar />
@@ -34,8 +59,30 @@ export default function About() {
       </div>
       <div className="content" id='members-section'>
         <h1><span id="title-span">{">"} Our Team</span></h1>
-        <h2>Coordinators</h2>
-        
+        <div className="members-subsection-container">
+          <h2>Coordinators</h2>
+          <div className="members-subsection">
+            <MemberCard
+              value={membersList.members?.filter(e => e.designation === "Chief Coordinator")[0]}
+            />
+            <MemberCard
+              value={membersList.members?.filter(e => e.designation === "Technical Head")[0]}
+            />
+            <MemberCard
+              value={membersList.members?.filter(e => e.designation === "Operations Head")[0]}
+            />
+          </div>
+        </div>
+        {Object.keys(members).map((e) => {
+          return (
+            <div className="members-subsection-container" style={{ display: members[e]?.length > 0 ? "flex" : "none" }}>
+              <h2>{e}</h2>
+              <div className="members-subsection">
+                {members[e]?.map((member, i) => <MemberCard key={i} value={member} />)}
+              </div>
+            </div>
+          )
+        })}
       </div>
     </Fragment>
   )
