@@ -51,6 +51,14 @@ body {
   font-weight: 600;
 }
 
+.navbar-icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 #nav-menu {
   display: flex;
   flex-direction: row;
@@ -61,6 +69,10 @@ body {
   cursor: pointer;
   color: white;
   list-style: none;
+}
+
+.nav-menu-item:active{
+  color: var(--blue);
 }
 
 .nav-menu-item:hover{
@@ -77,6 +89,13 @@ body {
   right: 10px;
 }
 
+.menu-icon{
+  display: none;
+}
+
+.nav-menu-mobile{
+  display: none;
+}
 /* Hero */
 #hero {
   display: flex;
@@ -184,9 +203,23 @@ body {
   }
   #navbar {
     font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .bin {
     line-height: normal;
+  }
+  .menu-icon{
+    display: block;
+  }
+  #nav-menu{
+    display: none;
+  }
+  .nav-menu-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0px;
   }
 }
 
