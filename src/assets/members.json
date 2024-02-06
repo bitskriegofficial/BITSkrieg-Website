@@ -1,42 +1,42 @@
 {
     "members":[
         {
-            "username":"Username",
-            "name":"Name",
+            "username":"rskbansal",
+            "name":"Rhythm Bansal",
             "designation":"Chief Coordinator",
             "contact":{
-                "mail":"mail@gmail.com",
-                "linkedin":"linkedin",
+                "mail":"rhythm@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/rskbansal",
                 "twitter":"twitter"
             }
         },
         {
-            "username":"Username",
-            "name":"Name",
+            "username":"hackerx33",
+            "name":"Kalash Poddar",
             "designation":"Technical Head",
             "contact":{
-                "mail":"mail@gmail.com",
-                "linkedin":"linkedin",
+                "mail":"kalash@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/kalash33/",
                 "twitter":"twitter"
             }
         },
         {
             "username":"Username",
-            "name":"Name",
+            "name":"Parth Shitole",
             "designation":"Operations Head",
             "contact":{
-                "mail":"mail@gmail.com",
-                "linkedin":"linkedin",
+                "mail":"parth@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/parth-shitole-a92070224/",
                 "twitter":"twitter"
             }
         },
         {
-            "username":"Username",
-            "name":"Name",
+            "username":"InimicalX",
+            "name":"Akhil Bansal",
             "designation":"Alumni",
             "contact":{
-                "mail":"mail@gmail.com",
-                "linkedin":"linkedin",
+                "mail":"akhil@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/akhilbansal-2193/",
                 "twitter":"twitter"
             }
         }
