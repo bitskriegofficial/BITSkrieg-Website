@@ -18,7 +18,7 @@ const BinaryBackground = () => {
             const X = (i % numColumns) - numColumns / 2;
             const Y = 2 * (Math.floor(i / numColumns) - numRows / 2);
             const dist = Math.hypot(X, Y);
-            const amplitude = Math.sin((dist / 10) + j / 10); // Adjust the frequency and speed
+            const amplitude = Math.sin((dist / 1000) + j / 1000); // Adjust the frequency and speed
             const index = Math.abs(j - Math.floor(dist - 0.7 + amplitude)) % 8;
             s += 'BITSkrieg'[index];
           } else {
