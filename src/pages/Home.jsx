@@ -12,7 +12,7 @@ export default function Home() {
                 <BinaryGenerator />
                 <div className='home-content'>
                     <img src="./bitskrieg_logo.png" alt="" id="title" />
-                    <div className='typewriter-home-content'><p>BITS Goa's Cybersecurity Club.</p></div>
+                    <div className='typewriter-home-content'><p>BITS Goa's Cybersecurity Club</p></div>
                 </div>
             </div>
             <div>
