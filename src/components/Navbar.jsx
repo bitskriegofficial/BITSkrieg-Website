@@ -26,9 +26,9 @@ export default function Navbar() {
         <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/archives'>
           /Archives
         </Link>
-        <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/contact'>
+        {/* <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/contact'>
           /Contact
-        </Link>
+        </Link> */}
       </ul>
       <ul id="nav-menu">
         <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/'>
@@ -42,10 +42,10 @@ export default function Navbar() {
         <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/archives'>
           Archives
         </Link>
-        <li className="nav-separator">/</li>
+        {/* <li className="nav-separator">/</li>
         <Link className='nav-menu-item' style={{ textDecoration: 'none' }} to='/contact'>
           Contact
-        </Link>
+        </Link> */}
       </ul>
     </div>
   )

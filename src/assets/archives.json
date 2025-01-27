@@ -1,14 +1,19 @@
 {
     "archives":[
         {
+            "title":"BITSCTF 2024",
+            "link":"hhttps://github.com/bitskriegofficial/BITSCTF-2024",
+            "content":"BITSCTF 2024 marked a significant milestone as our largest and most impactful Capture The Flag event to date. With an impressive rating of 21.81, it drew participation from over 950 teams representing more than 15 countries, showcasing its growing global reach and recognition. The event featured a jeopardy-style format with a diverse range of challenging categories, designed to test participants’ skills across various domains. This year’s success highlights the event’s evolution and its ability to bring together a vibrant community of cybersecurity enthusiasts and professionals on a global stage."
+        },
+        {
             "title":"BITSCTF 2023",
             "link":"https://github.com/bitskriegofficial/BITSCTF_2023",
-            "content":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rem optio consequatur nulla hic? Quis inventore tenetur ea? Dolores illum nihil amet, asperiores pariatur repellat? Quia exercitationem praesentium doloremque assumenda ratione ipsam fuga provident, saepe error accusamus labore, veritatis repudiandae laboriosam fugit quis. Hic, ab ipsum distinctio labore exercitationem modi?"
+            "content":"BITSCTF 2023 was a globally recognized jeopardy-style Capture The Flag competition that brought together teams from over 15 countries to tackle challenges in cryptography, reverse engineering, web exploitation, and more. With over 950 teams participating, the event showcased high-quality, real-world cybersecurity scenarios designed for both beginners and experts. Combining learning, collaboration, and skill-building, BITSCTF 2023 solidified its reputation as a leading platform for global cybersecurity enthusiasts and professionals."
         },
         {
             "title":"BITSCTF 2022",
             "link":"https://github.com/bitskriegofficial/BITSCTF_2023",
-            "content":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rem optio consequatur nulla hic? Quis inventore tenetur ea? Dolores illum nihil amet, asperiores pariatur repellat? Quia exercitationem praesentium doloremque assumenda ratione ipsam fuga provident, saepe error accusamus labore, veritatis repudiandae laboriosam fugit quis. Hic, ab ipsum distinctio labore exercitationem modi?\n\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rem optio consequatur nulla hic? Quis inventore tenetur ea? Dolores illum nihil amet, asperiores pariatur repellat? Quia exercitationem praesentium doloremque assumenda ratione ipsam fuga provident, saepe error accusamus labore, veritatis repudiandae laboriosam fugit quis. Hic, ab ipsum distinctio labore exercitationem modi?"
+            "content":"BITSCTF 2022 was a highly anticipated jeopardy-style CTF, offering diverse challenges in key cybersecurity domains. The event emphasized learning, skill development, and global collaboration, cementing its place as a top-tier competition in the cybersecurity community."
         }
     ]
 }

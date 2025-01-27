@@ -1,9 +1,39 @@
 {
     "members":[
         {
+           "username":"darthlazius",
+            "name":"Kushagra Malviya",
+            "designation":"Chief Coordinator",
+            "contact":{
+                "mail":"kushagra@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/kushagra-malviya-343467253/",
+                "twitter":"https://x.com/kushagramalviy1"
+            } 
+        },
+        {
+            "username":"iznish501",
+            "name":"Nishant Raghuvanshi",
+            "designation":"Technical Head",
+            "contact":{
+                "mail":"nishant@bitskrieg.in",
+                "linkedin":"https://www.linkedin.com/in/nishant-raghuvanshi-82820213b/",
+                "twitter":"https://x.com/nishant_50"
+            } 
+        },
+        {
+            "username":"kritieeee",
+            "name":"Kriti Thacker",
+            "designation":"Operations Head",
+            "contact":{
+                "mail":"kriti@bitskrieg.org",
+                "linkedin":"https://www.linkedin.com/in/kritieeee?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "twitter":"https://x.com/kritithacker?s=21&t=QiHyURdRVE8xYqywcG5aFQ"
+            } 
+        },
+        {
             "username":"rskbansal",
             "name":"Rhythm Bansal",
-            "designation":"Chief Coordinator",
+            "designation":"Alumni",
             "contact":{
                 "mail":"rhythm@bitskrieg.org",
                 "linkedin":"https://www.linkedin.com/in/rskbansal",
@@ -13,7 +43,7 @@
         {
             "username":"hackerx33",
             "name":"Kalash Poddar",
-            "designation":"Technical Head",
+            "designation":"Alumni",
             "contact":{
                 "mail":"kalash@bitskrieg.org",
                 "linkedin":"https://www.linkedin.com/in/kalash33/",
@@ -23,7 +53,7 @@
         {
             "username":"Username",
             "name":"Parth Shitole",
-            "designation":"Operations Head",
+            "designation":"Alumni",
             "contact":{
                 "mail":"parth@bitskrieg.org",
                 "linkedin":"https://www.linkedin.com/in/parth-shitole-a92070224/",
