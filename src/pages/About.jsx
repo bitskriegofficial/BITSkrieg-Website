@@ -121,7 +121,7 @@ export default function About() {
         </h1>
         <h2>Contact us</h2>
         <p>
-          We value your interest in BITSKrieg and are always open to new
+          We value your interest in BITSkrieg and are always open to new
           opportunities for collaboration and partnership.
         </p>
         <p>

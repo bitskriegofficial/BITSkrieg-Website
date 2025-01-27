@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function AnnouncementCard({value}){
     return (
         <div className="announcement-card">
@@ -5,3 +7,9 @@ export default function AnnouncementCard({value}){
         </div>
     )
 }
+
+AnnouncementCard.propTypes = {
+    value: PropTypes.shape({
+        content: PropTypes.string.isRequired
+    }).isRequired
+};
