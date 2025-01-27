@@ -1,16 +1,16 @@
 {
     "announcements":[
         {
-            "id":3,
-            "content":"Our flagship event - BITSCTF 2024 is scheduled from 16th February 00:00 IST to 18th February 2024 00:00 IST. Register here - ctf.bitskrieg.org"
+            "id":1,
+            "content":"Our flagship event - BITSCTF 2025 is scheduled from 7th February 17:30 IST to 9th February 2025 17:30 IST. Register here - ctf.bitskrieg.in"
         },
         {
             "id":2,
             "content":"Here are our writeups for IrisCTF 2024"
         },
         {
-            "id":1,
-            "content":"Our flagship event - BITSCTF 2025 is scheduled from 7th February 17:30 IST to 9th February 2025 17:30 IST. Register here - ctf.bitskrieg.in"
-        }
+            "id":3,
+            "content":"Our flagship event - BITSCTF 2024 is scheduled from 16th February 00:00 IST to 18th February 2024 00:00 IST. Register here - ctf.bitskrieg.org"
+        } 
     ]
 }
